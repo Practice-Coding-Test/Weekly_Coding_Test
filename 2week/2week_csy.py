@@ -22,14 +22,14 @@ def solution(scores):
         avg = score / cnt
 
         if avg >= 90:
-            answer += 'A'
+            answer = answer + 'A'
         elif avg >= 80:
-            answer += 'B'
+            answer = answer + 'B'
         elif avg >= 70:
-            answer += 'C'
+            answer = answer + 'C'
         elif avg >= 50:
-            answer += 'D'
+            answer = answer + 'D'
         else:
-            answer += 'F'
+            answer = answer + 'F'
 
     return answer
