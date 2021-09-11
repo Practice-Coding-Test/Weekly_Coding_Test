@@ -1,3 +1,3 @@
 # Weekly_coding_test
 
-Hi
+Practice Coding Test : https://programmers.co.kr/learn/challenges
