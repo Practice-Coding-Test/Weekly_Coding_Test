@@ -19,8 +19,5 @@ def solution(price, money, count):
     return(0) if answer <= 0 else int(answer)
 
 
-<<<<<<< HEAD
 solution(3,20,4)
-=======
-solution(3,20,4) 
->>>>>>> d563b7985ce2d32b3f7c111bc86c182449e250fe
+
