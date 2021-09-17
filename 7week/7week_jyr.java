@@ -27,6 +27,6 @@ class Solution {
                 enterIdx++;
             }
         }
-        return answer;
+        return answer; 
     }
 }
