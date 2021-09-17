@@ -32,7 +32,7 @@ vector<int> solution(vector<int> enter, vector<int> leave) {
         }
     }
 <<<<<<< HEAD
-    return answer;
+    return answer; 
 =======
     return answer; 
 >>>>>>> d563b7985ce2d32b3f7c111bc86c182449e250fe
