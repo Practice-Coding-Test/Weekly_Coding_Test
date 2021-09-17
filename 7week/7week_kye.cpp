@@ -7,7 +7,6 @@ using namespace std;
 vector<int> solution(vector<int> enter, vector<int> leave) {
     vector<int> answer(enter.size(), 0);
     set<int>room;//중복제거를 위해 set 사용
-    vector<vector<int>>visited(enter.size() + 1, vector<int>(enter.size() + 1, 0));//2차원 벡터 만들기, 방문 확인용
     int inidx = 0;
     int outidx = 0;
     while (outidx < leave.size())//퇴실 순서를 기준으로 루프를 돈다. 다 돌면 끝난다
