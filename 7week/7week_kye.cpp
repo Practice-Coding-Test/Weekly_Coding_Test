@@ -31,6 +31,6 @@ vector<int> solution(vector<int> enter, vector<int> leave) {
             outidx++;
         }
     }
-    return answer;
+    return answer; 
 
 }
