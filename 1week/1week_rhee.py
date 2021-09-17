@@ -6,4 +6,4 @@ def solution(price, money, count):
     else:
         answer = -1 * money
 
-    return answer
+    return answer 
