@@ -37,7 +37,7 @@ def solution(enter, leave):
                 last_idx.append(j)
 
         answer.append(len(last_idx))
-    return(answer)
+    return(answer) 
     
 
 
