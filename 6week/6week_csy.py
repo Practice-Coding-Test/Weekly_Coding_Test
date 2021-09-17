@@ -28,4 +28,4 @@ def solution(weights, head2head):
     # 정렬 후 번호만 answer에 저장
     info.sort()
     answer = [x[-1] for x in info]
-    return answer
+    return answer 
