@@ -11,7 +11,7 @@ vector<int> solution(vector<int> enter, vector<int> leave) {
     int outidx = 0;
     while (outidx < leave.size())//퇴실 순서를 기준으로 루프를 돈다. 다 돌면 끝난다
     {
-        //room에 퇴실 순서인 사람이 없는경우
+        //room에 퇴실 순서인 사람이 없는경우.
         while (room.find(leave[outidx]) == room.end())
         {
             answer[enter[inidx] - 1] += room.size(); // 현재 입실하면 만날 수 있는 사람의 수
