@@ -19,4 +19,4 @@ def solution(enter, leave):
                 break
             out_idx += 1
 
-    return answer 
+    return answer
