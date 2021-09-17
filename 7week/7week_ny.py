@@ -41,4 +41,8 @@ def solution(enter, leave):
     
 
 
+<<<<<<< HEAD
 solution(enter,leave)
+=======
+solution(enter,leave) 
+>>>>>>> d563b7985ce2d32b3f7c111bc86c182449e250fe
