@@ -19,4 +19,4 @@ def solution(price, money, count):
     return(0) if answer <= 0 else int(answer)
 
 
-solution(3,20,4)
+solution(3,20,4) 
