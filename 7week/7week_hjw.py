@@ -21,5 +21,5 @@ def solution(enter, leave):
     for idx, person in enumerate(answer): # 각 사람에게 서로 만났다는 정보가 저장되어 있어야 함(만난사람 조합 저장)
         for p in person:
             answer[p].append(idx)
-    return [len(set(i)) for i in answer][1:]
+    return [len(set(i)) for i in answer][1:] 
 
