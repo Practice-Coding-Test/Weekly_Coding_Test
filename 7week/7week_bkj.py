@@ -25,3 +25,4 @@ Type "help", "copyright", "credits" or "license()" for more information.
             for p in arr: answer[p-1] += 1 if answer[p-1] > 0 else len(arr) - 1
             
     return answer
+
