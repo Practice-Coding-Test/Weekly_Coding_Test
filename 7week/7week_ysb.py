@@ -22,7 +22,4 @@ def solution(enter,leave):
                     if i == leave[0]:
                         sub.remove(i)
                         leave.pop(0)
-    return ans
-
-
-
+    return ans  
