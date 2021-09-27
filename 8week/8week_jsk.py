@@ -9,7 +9,7 @@ def solution(sizes):
         else:
             w = size[1]
             h = size[0]
-        # update max width & height
+        # find max width & height
         if width < w:
             width = w
         if height < h:
