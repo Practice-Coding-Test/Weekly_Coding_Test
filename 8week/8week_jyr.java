@@ -5,7 +5,8 @@ class Solution {
         
         for(int i = 0; i < sizes.length; i++) {
             max1 = Math.max(max1,(Math.max(sizes[i][0],sizes[i][1])));
-            max2 = Math.max(max2,(Math.min(sizes[i][0],sizes[i][1])));                  }
+            max2 = Math.max(max2,(Math.min(sizes[i][0],sizes[i][1])));                  
+        }
         
         return max1 * max2;
     }
