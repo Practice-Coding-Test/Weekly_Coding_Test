@@ -3,7 +3,6 @@ def solution(k, dungeons):
     n,answer= len(dungeons),0
     item = [i for i in range(n)]
     items = list(permutations(item, n))
-    dungeons.sort(key= lambda x:x[0], reverse= True)
 
     for item in items:
         power, temp= k, 0
